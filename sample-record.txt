@@ -1,0 +1,102 @@
+{
+  "count": 11,
+  "docs": [
+    {
+      "@context": {
+        "@vocab": "http://purl.org/dc/terms/",
+        "LCSH": "http://id.loc.gov/authorities/subjects",
+        "aggregatedDigitalResource": "dpla:aggregatedDigitalResource",
+        "begin": {
+          "@id": "dpla:dateRangeStart",
+          "@type": "xsd:date"
+        },
+        "collection": "dpla:aggregation",
+        "coordinates": "dpla:coordinates",
+        "dataProvider": "edm:dataProvider",
+        "dpla": "http://dp.la/terms/",
+        "edm": "http://www.europeana.eu/schemas/edm/",
+        "end": {
+          "@id": "dpla:dateRangeEnd",
+          "@type": "xsd:date"
+        },
+        "hasView": "edm:hasView",
+        "isShownAt": "edm:isShownAt",
+        "name": "xsd:string",
+        "object": "edm:object",
+        "originalRecord": "dpla:originalRecord",
+        "provider": "edm:provider",
+        "sourceResource": "edm:sourceResource",
+        "state": "dpla:state",
+        "stateLocatedIn": "dpla:stateLocatedIn"
+      },
+      "@id": "http://dp.la/api/items/2709fce6f5fd80225fef5083c86d4bac",
+      "_id": "virginia--uva-lib:1042454",
+      "_rev": "1-d7cf9de9b01e3856fcac1a6590f426db",
+      "collection": {
+        "@id": "http://dp.la/api/collections/virginia--744806"
+      },
+      "dataProvider": "Special Collections, University of Virginia Library, Charlottesville, Va.",
+      "hasView": {
+        "@id:": "http://fedoraproxy.lib.virginia.edu/fedora/objects/uva-lib:1042454/methods/djatoka:StaticSDef/getStaticImage",
+        "rights": [
+          "For more information about the use of this material, please go to http://search.lib.virginia.edu/terms."
+        ]
+      },
+      "id": "2709fce6f5fd80225fef5083c86d4bac",
+      "ingestDate": "2013-03-27T12:55:23.353010",
+      "ingestType": "item",
+      "isShownAt": "http://search.lib.virginia.edu/catalog/uva-lib:1042454",
+      "object": "http://fedoraproxy.lib.virginia.edu/fedora/objects/uva-lib:1042454/methods/djatoka:StaticSDef/getThumbnail",
+      "originalRecord": {
+        ...
+      },
+      "provider": {
+        "@id": "http://dp.la/api/contributor/virginia",
+        "name": "University of Virginia Library"
+      },
+      "score": 1.0898182,
+      "sourceResource": {
+        "creator": "Rufus W., Holsinger, 1866-1930",
+        "date": {
+          "begin": "1914-08-25",
+          "displayDate": "1914-08-25",
+          "end": "1914-08-25"
+        },
+        "description": "Plate is in good condition.",
+        "extent": "5x7",
+        "format": [
+          "Glass negatives"
+        ],
+        "identifier": "uva-lib:1042454",
+        "language": {
+          "name": "eng"
+        },
+        "rights": [
+          "For more information about the use of this material, please go to http://search.lib.virginia.edu/terms."
+        ],
+        "subject": [
+          {
+            "name": "Photography"
+          },
+          {
+            "name": "Portraits"
+          },
+          {
+            "name": "Costumes and clothes"
+          },
+          {
+            "name": "Yodeling"
+          },
+          {
+            "name": "Holsinger Studio (Charlottesville, Va.)"
+          }
+        ],
+        "title": "Alpine Yodellers Tyrolean",
+        "type": "image"
+      }
+    }
+  ],
+  "facets": [],
+  "limit": 1,
+  "start": 0
+}
